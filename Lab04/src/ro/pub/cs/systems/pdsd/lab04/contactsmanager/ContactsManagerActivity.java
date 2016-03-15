@@ -27,6 +27,7 @@ public class ContactsManagerActivity extends Activity {
 				// TODO Auto-generated method stub
 				LinearLayout downLayout = (LinearLayout)findViewById(R.id.extraInfo);
 				String additionalText = additional.getText().toString();
+				
 				if(additionalText.equals("Show Additional Fields")) {
 					downLayout.setVisibility(View.VISIBLE);
 				} else {
